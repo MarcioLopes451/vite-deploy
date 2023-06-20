@@ -25,7 +25,7 @@ function App() {
       </div>
       <p className="read-the-docs">
         {data.map((data,index) => (
-         <img src={data.thumbnail.regular.small} />
+         <img src={data.thumbnail.regular.large} />
         ))}
       </p>
     </>
