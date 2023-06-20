@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import viteLogo from '/vite.svg'
 import './App.css'
-import data from './data.json'
+import { data } from '../data'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,11 +22,13 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">
+      <div>
         {data.map((data,index) => (
-         <img src={data.thumbnail.regular.large} />
+          <div key={index}>
+            <img src={data.thumbnail.regular.large}/>
+          </div>
         ))}
-      </p>
+      </div>
     </>
   )
 }
