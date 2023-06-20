@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import viteLogo from '/vite.svg'
 import './App.css'
-import data from '../data.json';
+import data from './data.json'
 import hope from '../assets/thumbnails/beyond-earth/regular/large.jpg';
 
 function App() {
