@@ -8,8 +8,7 @@
       },
       "regular": {
         "small": "./assets/thumbnails/beyond-earth/regular/small.jpg",
-        "medium": "./assets/thumbnails/beyond-earth/regular/medium.jpg",
-        "large": "https://marciolopes451.github.io/vite-deploy/assets/thumbnails/beyond-earth/regular/large.jpg"
+        "medium": "./assets/thumbnails/beyond-earth/regular/medium.jpg"
       }
     },
     "year": 2019,
